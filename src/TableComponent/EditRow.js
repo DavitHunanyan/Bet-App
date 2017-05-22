@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import data from './array.js';
+import data from '../array.js';
 
 class EditRow  extends Component{
 			constructor(props){

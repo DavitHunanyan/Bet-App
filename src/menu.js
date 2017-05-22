@@ -1,24 +1,20 @@
-import './boardstyle.css';
-import Table from './Table.js'
-import array from './array.js';
+import './Menu.css';
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Menu extends Component{
   render(){
     return(
-      <div className="content flex">
-          <div className="menu flex">
+      
+          <div className="Menu">
                   <ul className="list_menu">
-                      <li className="menu_item"><a href="">Home </a></li>
-                      <li className="menu_item"><a href="">News</a></li>
-                      <li className="menu_item"><a href="">About</a></li>
+                      <li className="menu_item"><Link to='/login'>Login Page</Link></li>
+                      <li className="menu_item"><Link to='/page1'>User Info List </Link></li>
+                      <li className="menu_item"><Link to='/page2'>Mail List Add</Link></li>
                       <li className="menu_item"><a href="">Contact</a></li>
                  </ul>
           </div>
-          <div className="table_container flex">
-            <Table data={array} />
-          </div>
-      </div>
+      
     );
   }
 }

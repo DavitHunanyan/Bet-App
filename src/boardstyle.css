@@ -182,6 +182,68 @@ body{
 }
 
 
+/* MENU LIST ADD STYLE  */
+
+.list_head {
+	text-align: center;
+    color: rgba(115, 90, 115, 0.56);
+    font-family: cursive;
+}
+
+.mail_area {
+	min-height: 300px;
+	overflow-y: auto;
+	border: solid 1px blue;
+}
+
+.add_list {
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.mdl-textfield {
+	display: block;
+	width: auto;
+}
+
+.save_list {
+	float: right;
+	margin: 2% 0;
+	width: 17%;
+}
+
+.list_input {
+	text-indent: 2%;
+}
+
+.menuListWrap{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.searchRes{
+    position: relative;
+    padding: 1% 1%;
+    background: rgba(115, 90, 115, 0.56);
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.searchMail{
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    z-index: 23333;
+    background: aliceblue;
+}
+.searchRes:hover {
+    background: cadetblue;
+}
+.mdl-chip {
+    background: rgba(115, 90, 115, 0.56)
+}
+    
+
 @media (max-width:768px) {
 
     .menu_icon{
@@ -203,6 +265,10 @@ body{
     .menu{
         display: none;
     }
+      .menuListWrap{    /*Add New Menu List */
+        width: 90%;
+    }
+
 
 }
 
@@ -231,7 +297,8 @@ body{
     .logo{
         font-size: 12px;
     }
-
-
-
 }
+
+
+
+   

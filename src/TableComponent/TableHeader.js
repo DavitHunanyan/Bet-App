@@ -1,9 +1,6 @@
 import React,{Component} from 'react';
 
 class TableHeader extends Component{
-		 constructor(props){
-		 super(props);
-		 }
 		 render(){
 
 		 const obj=this.props.headerdata;

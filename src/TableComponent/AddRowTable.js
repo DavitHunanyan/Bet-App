@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import array from './array.js';
+import array from '../array.js';
 
 class AddRowTable extends Component{
 		 constructor(props) {

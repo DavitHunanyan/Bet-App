@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import TableHeader from'./TableHeader.js';
 import TableRow from './TableRow.js';
 import AddRowTable from './AddRowTable.js';
+import '../Table.css';
 
-import array from './array.js';
+import array from '../array.js';
 
 class Table extends Component{
 			constructor(props){

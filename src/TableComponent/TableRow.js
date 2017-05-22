@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import EditRow from './EditRow.js';
-import array from './array.js';
+import array from '../array.js';
 
 class TableRow extends Component{
 		     constructor(props){
