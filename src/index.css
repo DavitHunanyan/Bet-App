@@ -1,0 +1,61 @@
+table,td{
+  	border: 2px solid black;
+  	border-collapse: collapse ;
+  	font-family: Arial;
+  }
+  table{
+  	background:#513654;
+  	width: 100%;
+  }
+  input{
+  	border: 2px solid #5A0031;
+ 	margin: 2px;
+ 	height: 100%;
+ 	border-radius: 5px;
+ 	background: grey;
+  }
+  td{
+  	text-align: center;
+  	width:250px;
+  }
+  th{
+  	border: 2px solid black;
+  	border-collapse: collapse ;
+  }
+  #ids{
+  	width: 30px;
+  }
+  .AddRow{
+  	width: 100%;
+  	background:#5A0031;
+  	color:white; 
+  }
+  #editingrow{
+  	background: #5A0031;
+  }
+  .deletButton{
+  	margin:0 10px;
+  	border-radius: 5px;
+  	background: red;
+  	border: solid 2px grey;
+  	color: white;
+  }
+  .TableHeader{
+  	background:#5A0031; 
+  }
+  button{
+  	margin:0 10px;
+  	border-radius: 5px;
+  	background: grey;
+  	border: solid 2px grey;
+  	color: white;
+  }
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#THeader{
+	text-align: center;
+	background: #513654;
+}
